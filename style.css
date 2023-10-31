@@ -1,0 +1,78 @@
+body{
+    background-image:url(beautyproduct.jpg);
+    background-size: 100% 850px;background-attachment: fixed;
+    padding:0;margin:0;
+}
+/*started nav coding*/
+#title_box{
+    width:50%;height:300px;background-color:rgba(227, 207, 207, 0.4);box-sizing: border-box;float: left;
+}
+/*staqrt home page section coding */
+#welcome{font-family: monospace;color:white;font-size:40px;text-align: center;}
+#menu{height:70px;width:700px;box-sizing: border-box;}
+#nav_item{width:20%;height:50px;border-width:1px;box-sizing: border-box;border-color: aliceblue;border-style:solid;text-align: center;}
+a{text-decoration: none;color: aliceblue;font-family:sans-serif;font-size:20px;font-weight: normal;}
+/*ended nav coding*/
+#home-section{width:700px;height:400px;box-sizing: border-box;float: left;}
+#logo{width:176px;height:176px;box-sizing: border-box;border-color: aliceblue;border-style: double;border-width: 1px;float:left;margin:125px;padding: bottom }
+#logo-text{margin:0;padding:0;font-family: Verdana, Geneva, Tahoma, sans-serif;color: aliceblue;font-size: 160px;margin-top:-10px;margin-left:23px;}
+#domain{color: aliceblue;font-size:30px;font-family: Verdana, Geneva, Tahoma, sans-serif;margin:0px;}
+/* end home page section coding */
+/* start login page section coding */
+#login-section{width:700px;height:400px;box-sizing: border-box;float:inline-end;padding:200px}
+fieldset{width:200px;height:200px;border-color: aliceblue;border-width:5px;background-color: rgba(0,0,0,.5);}
+legend{color: aliceblue;font-size:40px;}
+#login-form{font-size:25px;color: aliceblue;}
+#username{background-color: inherit;border:none;border-color: aliceblue;border-style:solid;border-width:5px;color: black;}
+#password{background-color:inherit;border:none;border-color: aliceblue;border-style: solid;border-width:5px;color: black;}
+#login-btn{background-color:rgba(0,0,0,.5);border:none;border-color: aliceblue;border-style: solid;border-width:5px;color:black;float: right;color: aliceblue;font-size:20px;}
+/* start signup page */
+#sign-section{width:700px;height:400px;box-sizing: border-box;float:inline-end;padding:200px}
+#fieldset-sign{width:400px;height:400px;border-color: aliceblue;border-width:5px;background-color:rgba(0,0,0,.5)}
+legend{color: aliceblue;font-size:40px;}
+#login-form{font-size:25px;color: aliceblue;}
+#username-sign{background-color: inherit;border:none;border-color: aliceblue;border-style:solid;border-width:1px;}
+#email{background-color:inherit;border:none;border-color: aliceblue;border-style: solid;border-width:1px;}
+#mobile{background-color:inherit;border:none;border-color: aliceblue;border-style: solid;border-width:1px;}
+#textarea{ width:200px;height:30px; background-color:inherit;border:none;border-color: aliceblue;border-style: solid;border-width:1px;}
+#submit{background-color:rgba(0,0,0,.3);border:none;border-color: aliceblue;border-style: solid;border-width:2px;float: right;color: aliceblue;font-size:20px;}
+/* end signup page */
+/* contact page section coding */
+#fieldset-contact{width:300px;height:200px;border-color: aliceblue;border-width:5px;}
+#contact-info{font-size:25px;font-family:Verdana, Geneva, Tahoma, sans-serif;color: aliceblue;text-align:justify;}
+#contact-section{width:700px;height:400px;box-sizing: border-box;float:inline-end;padding:200px}
+/* contact section coding end */
+/* product section coding start */
+#product-section{width: 1464px;height:2600px;box-sizing: border-box;float:inline;border-width: 1px;border-style: dashed;padding-top:120px;}
+#brand{width:1450px;height:350px;background-color:rgba(0,0,0,.5) ;float:left;box-sizing: border-box;margin:0px;padding: 0%;}
+#heading-brand{font-size: 30px;font-style: italic;color: crimson;text-align: center;}
+#brand-pic{width:200px;height:100px;float:left;box-sizing: border-box;border-width:3px;border-style:solid;border-color:black;margin:34px;margin-top:0px}
+#picon{width:197px;height:97px;}
+#search{width:500px;height:40px;box-sizing: border-box;font-size:25px;padding:10px;background-image:url(magnifying-glass.jpg);background-size:40px 40px;background-repeat: no-repeat;background-position: right;}
+/*lakme-product */
+#lakme-product{width:100%;height:410px;float:left;box-sizing: border-box;background-color:rgba(0,0,0,.5);}
+#lakme-h{font-size:35px;font-family:Verdana, Geneva, Tahoma, sans-serif;color:blanchedalmond;text-align: center;}
+#lakme-div{border-width:2px;border-color: aliceblue;float:left;width:200px;height:280px;border-style: double;margin:20px;}
+/* ponds-product */
+#ponds-product{width:100%;height:410px;float:left;box-sizing: border-box;background-color:rgba(0,0,0,.5);}
+#ponds-h{font-size:35px;font-family:Verdana, Geneva, Tahoma, sans-serif;color:blanchedalmond;text-align: center;}
+#ponds-div{border-width:2px;border-color: aliceblue;float:left;width:200px;height:280px;border-style: double;margin:20px;}
+/* boroplus-product */
+#boroplus-product{width:100%;height:410px;float:left;box-sizing: border-box;background-color:rgba(0,0,0,.5);}
+#boroplus-h{font-size:35px;font-family:Verdana, Geneva, Tahoma, sans-serif;color:blanchedalmond;text-align: center;}
+#boroplus-div{border-width:2px;border-color: aliceblue;float:left;width:200px;height:280px;border-style: double;margin:20px;}
+/* vaseline-product */
+#vaseline-product{width:100%;height:410px;float:left;box-sizing: border-box;background-color:rgba(0,0,0,.5);}
+#vaseline-h{font-size:35px;font-family:Verdana, Geneva, Tahoma, sans-serif;color:blanchedalmond;text-align: center;}
+#vaseline-div{border-width:2px;border-color: aliceblue;float:left;width:200px;height:280px;border-style: double;margin:20px;}
+/* dove-product */
+#dove-product{width:100%;height:420px;float:left;box-sizing: border-box;background-color:rgba(0,0,0,.5);}
+#dove-h{font-size:35px;font-family:Verdana, Geneva, Tahoma, sans-serif;color:blanchedalmond;text-align: center;}
+#dove-div{border-width:2px;border-color: aliceblue;float:left;width:200px;height:280px;border-style: double;margin:20px;}
+/* product name */
+#image{width:200px;height:200px;}
+#product-name{font-size: 20px;color: aliceblue;padding:0%;margin:0%;text-align: center;text-transform: capitalize;}
+#product-price{font-size:18px;color:aliceblue;float:left;padding-top:15px;margin:0;}
+#buy{font-size:18px;color:aliceblue;float:right;padding-top:15px;margin:0;}
+/* footer section */
+#h2{width:100%;height:100px;box-sizing: border-box;float:left;padding:10px}
